@@ -17,6 +17,8 @@ ul {
 }
 
 #masthead {
+  position: sticky;
+  top: 0;
   padding: 5px 10px;
 }
 
