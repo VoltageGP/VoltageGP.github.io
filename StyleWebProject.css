@@ -1,8 +1,8 @@
 html {
-  background-color: rgb(255, 253, 245);
-  font-size: 20px;
-  margin-left: 125px;
-  margin-right: 125px;
+    background-color: rgb(255, 253, 245);
+    font-size: 20px;
+    margin-left: 125px;
+    margin-right: 125px;
 }
 
 ul {
@@ -11,19 +11,31 @@ ul {
     border: 1px solid black;
 }
 
-#masthead.stuck {
-  border-bottom: 1px solid #ddd;
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
-#masthead {
-  position: sticky;
-  top: 0;
-  padding: 5px 10px;
-  text-align: center;
+.navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background: #ddd;
+    color: black;
 }
 
 .wrapper {
-  max-width: 1100px;
+    margin-top: 30px;
+    max-width: 1100px;
   min-width: 1000px;
   padding-top: 40px;
   margin:auto;
